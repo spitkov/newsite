@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+:root {
+  --primary-bg: #131313;
+  --primary-text: #ffffff;
+  --secondary-text: #71A5B9;
+  --terminal-text-hover: #8fC6d9;
+  --dot-color: #333333;
+  --dot-size: 4px;
+  --dot-space: 30px;
+  --dot-glow-color: rgba(113, 165, 185, 0.7);
+}
+
+html, body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus, button:focus {
+  outline: 1px solid var(--terminal-text);
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#dot-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  pointer-events: none;
+}
+
+.dot {
+  position: absolute;
+  background-color: var(--dot-color);
+  border-radius: 50%;
+  opacity: 0.15;
+  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform, opacity, box-shadow;
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+}
+

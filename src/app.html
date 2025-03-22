@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			:root {
+				--primary-bg: #131313;
+				--primary-text: #ffffff;
+				--secondary-text: #71A5B9;
+				--terminal-text-hover: #8fC6d9;
+				--dot-color: #333333;
+				--dot-size: 4px;
+				--dot-space: 30px;
+				--dot-glow-color: rgba(113, 165, 185, 0.7);
+			}
+			
+			html, body {
+				background-color: var(--primary-bg);
+				color: var(--primary-text);
+				margin: 0;
+				padding: 0;
+				min-height: 100vh;
+				overflow-x: hidden;
+			}
+		</style>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
