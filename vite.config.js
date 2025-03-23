@@ -5,6 +5,6 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	preview: {
-		host: ['spitkov.hu', 'spitkov.wtf']
+		host: ['spitkov.hu']
 	}
 });
