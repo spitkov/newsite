@@ -5,13 +5,13 @@
 	let { children } = $props();
 	
 	const name = "spitkov";
-	const title = "home";
+	const description = "home";
 	const email = "bence@spitkov.hu";
 	const github = "spitkov";
 	
 	const pageTitle = $derived(
 		$page.url.pathname === '/' 
-			? name + ' | ' + title 
+			? name + ' | ' + description 
 			: name + ' | ' + $page.url.pathname.substring(1)
 	);
 	
@@ -205,7 +205,7 @@
 
 <svelte:head>
 	<title>{pageTitle}</title>
-	<meta name="description" content="{title}" />
+	<meta name="description" content="{description}" />
 </svelte:head>
 
 <div id="particles-js"></div>
