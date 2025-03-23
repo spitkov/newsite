@@ -200,14 +200,11 @@
 <div id="particles-js"></div>
 <div class="min-h-screen bg-transparent text-[#ffffff] font-mono p-4 flex flex-col content-container">
 	<div class="max-w-2xl mx-auto w-full flex flex-col flex-grow">
-		<header class="mb-10 text-center">
-			<nav class="flex justify-center space-x-4">
-				<a href="/" class="px-3 py-1 {$page.url.pathname === '/' ? 'text-[#8fC6d9] font-bold' : 'text-[#71A5B9]'}">./home</a>
-				<a href="/portfolio" class="px-3 py-1 {$page.url.pathname === '/portfolio' ? 'text-[#8fC6d9] font-bold' : 'text-[#71A5B9]'}">./portfolio</a>
-				<a href="/tools" class="px-3 py-1 {$page.url.pathname === '/tools' ? 'text-[#8fC6d9] font-bold' : 'text-[#71A5B9]'}">./tools</a>
+		<header class="mb-10">
+			<nav class="flex justify-center mb-3">
+				<div class="inline-flex items-center"><a href="/" class="px-3 py-1 {$page.url.pathname === '/' ? 'text-[#8fC6d9] font-bold' : 'text-[#71A5B9]'}">./home</a><div class="w-[1px] h-8 bg-[#333333] mx-4"></div><a href="/portfolio" class="px-3 py-1 {$page.url.pathname === '/portfolio' ? 'text-[#8fC6d9] font-bold' : 'text-[#71A5B9]'}">./portfolio</a><div class="w-[1px] h-8 bg-[#333333] mx-4"></div><a href="/tools" class="px-3 py-1 {$page.url.pathname === '/tools' ? 'text-[#8fC6d9] font-bold' : 'text-[#71A5B9]'}">./tools</a></div>
 			</nav>
-
-			<div class="mt-3 border-b border-[#333333] w-full"></div>
+			<div class="border-b border-[#333333] w-full"></div>
 		</header>
 		
 		<main class="pb-8 flex-grow">
@@ -220,7 +217,7 @@
 				<div>
 					© {new Date().getFullYear()} {name}
 				</div>
-				<button on:click={scrollToTop} class="text-[#71A5B9]">:3</button>
+				<div class="text-[#71A5B9]">:3</div>
 			</div>
 		</footer>
 	</div>

@@ -2,7 +2,7 @@
     const projects = [
         {
             name: "mx.spitkov.hu",
-            description: "My email service with domains like: blahaj.fun peakfemboy.cfd, gays.cfd and so on.",
+            description: "My email service with domains like: blahaj.fun ekreten.hu and so on.",
             url: "https://mx.spitkov.hu"
         },
         {
@@ -11,9 +11,9 @@
             url: "https://git.spitkov.hu"
         },
         {
-            name: "cloudbin.cfd",
-            description: "5tb public archival storage",
-            url: "https://cloudbin.cfd"
+            name: "i.spitkov.hu",
+            description: "my sharex server with same domains as my mail server has.",
+            url: "https://i.spitkov.hu"
         },
         {
             name: "fileb.in",

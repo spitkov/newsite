@@ -60,7 +60,6 @@ a:focus, button:focus {
   background-color: var(--dot-color);
   border-radius: 50%;
   opacity: 0.15;
-  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
   will-change: transform, opacity, box-shadow;
 }
 
