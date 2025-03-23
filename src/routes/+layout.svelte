@@ -231,7 +231,7 @@
 				<div>
 					© {new Date().getFullYear()} {name}
 				</div>
-				<button on:click={scrollToTop} class="text-[#71A5B9]">:3</button>
+				<button onclick={scrollToTop} class="text-[#71A5B9]">:3</button>
 			</div>
 		</footer>
 	</div>
