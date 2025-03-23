@@ -30,7 +30,7 @@
             VMware got acquired by Broadcom and made it near impossible to find any downloads. 
             Here you can find all versions directly from VMware's software update server.
         </p>
-        <a href="https://t.3xx.pw/vmware" class="text-[#71A5B9] flex items-center w-fit px-3 py-1 border border-transparent hover:border-[#71A5B9] rounded-sm transition-colors duration-200">
+        <a href="https://softwareupdate.vmware.com/cds/vmw-desktop/ws/" class="text-[#71A5B9] flex items-center w-fit px-3 py-1 border border-transparent hover:border-[#71A5B9] rounded-sm transition-colors duration-200">
             <span>→ browse vmware workstation versions</span>
         </a>
     </section>
