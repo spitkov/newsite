@@ -20,7 +20,7 @@ export default {
         }
       },
       fontFamily: {
-        mono: ['Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace']
+        mono: ['var(--font-family)', 'monospace']
       },
     }
   },
