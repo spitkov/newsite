@@ -2,7 +2,7 @@
     import DiscordStatus from '$lib/components/DiscordStatus.svelte';
     
     const name = "spitkov";
-    const title = "full-stack dev & cybersec & snecológus";
+    const title = "full-stack dev & cybersec";
     const profilePic = "https://x.spitkov.hu/raw/aMSOMT.png";
     const email = "bence@spitkov.hu";
     const github = "spitkov";
