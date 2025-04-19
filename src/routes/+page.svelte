@@ -1,5 +1,6 @@
 <script>
     import DiscordStatus from '$lib/components/DiscordStatus.svelte';
+    import DiscordGuildTags from '$lib/components/DiscordGuildTags.svelte';
     
     const name = "spitkov";
     const title = "full-stack dev & cybersec";
@@ -35,4 +36,6 @@
     </section>
     
     <DiscordStatus />
+    
+    <DiscordGuildTags />
 </div>
