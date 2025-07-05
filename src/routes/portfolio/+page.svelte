@@ -34,6 +34,12 @@
 </script>
 
 <div class="text-[#ffffff] max-w-xl mx-auto">
+    <!-- 🚧 NOTICE -->
+    <div class="flex items-center bg-[#332222] border border-[#ff5555] text-[#ffaaaa] text-sm rounded-sm px-4 py-3 mb-6">
+        <span class="mr-2">⚠️</span>
+        <span>All projects are currently unavailable due to a hosting issue. Please check back later.</span>
+    </div>
+
     <h1 class="text-xl text-[#ffffff] font-bold mb-8">portfolio</h1>
     
     <div class="space-y-6">
@@ -57,4 +63,4 @@
             </div>
         {/each}
     </div>
-</div> 
+</div>
