@@ -1,5 +1,5 @@
 import { json } from "@sveltejs/kit";
-import { blobs } from "@netlify/blobs";
+import blobs from "@netlify/blobs";
 
 const store = blobs({ name: "thanks" });
 
