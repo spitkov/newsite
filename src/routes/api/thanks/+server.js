@@ -1,8 +1,8 @@
 import { json } from "@sveltejs/kit";
 import { getStore } from "@netlify/blobs";
-
+c
 export async function GET(event) {
-  const store = getStore("thanks");
+  const store = getStore("thanks", {siteID: 2cbaa9d3-0d5b-4b33-b632-21412a4ac0fb});
   try {
     const count = await store.get("count", { type: "json" });
     return json({ count: count ?? 0 });
@@ -13,7 +13,7 @@ export async function GET(event) {
 }
 
 export async function POST(event) {
-  const store = getStore("thanks");
+  const store = getStore("thanks", {siteID: 2cbaa9d3-0d5b-4b33-b632-21412a4ac0fb});
   try {
     const current = (await store.get("count", { type: "json" })) ?? 0;
     const updated = current + 1;
