@@ -3,7 +3,7 @@
     import DiscordGuildTags from '$lib/components/DiscordGuildTags.svelte';
     
     const name = "spitkov";
-    const title = "full-stack dev & cybersec";
+    const title = "full-stack dev";
     const profilePic = "/artworks-PBUoUMCK8utPRMJ7-NIcXIQ-t500x500.png"
     const email = "bence@spitkov.hu";
     const github = "spitkov";
